@@ -1,6 +1,6 @@
 {
-  "name": "react-native-textinput-maxlength-fixed",
-  "version": "0.1.2",
+  "name": "@react-native-oh-tpl/react-native-textinput-maxlength-fixed",
+  "version": "0.1.2-0.0.1",
   "description": "fix TextInput's maxLength bug when  using a non-English input method.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -43,15 +43,27 @@
     "ios",
     "android",
     "TextInput",
-    "maxLength"
+    "maxLength",
+    "harmony"
   ],
-  "repository": "https://github.com/2017398956/react-native-textinput-maxlength-fixed",
+  "harmony": {
+    "alias": "react-native-textinput-maxlength-fixed",
+    "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-native-oh-library/react-native-textinput-maxlength-fixed"
+  },
   "author": "choochoofly <nfl0328@outlook.com> (https://github.com/2017398956)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/2017398956/react-native-textinput-maxlength-fixed/issues"
+    "url": "https://github.com/react-native-oh-library/react-native-textinput-maxlength-fixed/issues"
   },
-  "homepage": "https://github.com/2017398956/react-native-textinput-maxlength-fixed#readme",
+  "homepage": "https://github.com/react-native-oh-library/react-native-textinput-maxlength-fixed#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -76,7 +88,7 @@
     "react-native-builder-bob": "^0.20.0",
     "release-it": "^15.0.0",
     "turbo": "^1.10.7",
-    "typescript": "^5.0.2"
+    "typescript": "^5.5.4"
   },
   "resolutions": {
     "@types/react": "17.0.21"

@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "textinput_maxlength_fixed",
+    "type": "har",
+    "deviceTypes": [
+      "default"
+    ]
+  }
+}
