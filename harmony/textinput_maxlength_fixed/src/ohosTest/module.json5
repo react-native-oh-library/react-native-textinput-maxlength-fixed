@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "textinput_maxlength_fixed_test",
+    "type": "feature",
+    "deviceTypes": [
+      "default"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false
+  }
+}

@@ -1,31 +1,19 @@
 # react-native-textinput-maxlength-fixed
 
-fix TextInput's maxLength bug when  using a non-English input method.
+本项目基于 [react-native-textinput-maxlength-fixed](https://github.com/2017398956/react-native-textinput-maxlength-fixed)
 
-修复拼音输入法下 TextInput maxLength 不能输入的 bug。
+## 文档地址 / Documentation URL 
 
-## Installation
+[中文 / Chinese](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-textinput-maxlength-fixed.md)
 
-```sh
-npm install react-native-textinput-maxlength-fixed
-npx pod-install
-```
+[英文 / English](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-en/react-native-textinput-maxlength-fixed.md)
 
-## Usage
+## Codegen
 
-```js
-    Just install it, no extra work is needed.
-    安装好就行，不需要额外的工作。
-```
+该库已接入 codegen，具体请查阅文档。
 
-## Contributing
+The library has been integrated with codegen. Please refer to the documentation for details.
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+## 请悉知 / Acknowledgements
 
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+本项目基于 [The MIT License (MIT)](https://github.com/2017398956/react-native-textinput-maxlength-fixed/blob/main/LICENSE) ，请自由地享受和参与开源。
