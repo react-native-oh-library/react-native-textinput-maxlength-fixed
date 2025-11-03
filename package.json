@@ -1,6 +1,6 @@
 {
   "name": "@react-native-ohos/react-native-textinput-maxlength-fixed",
-  "version": "0.1.2",
+  "version": "0.1.3-rc.1",
   "description": "fix TextInput's maxLength bug when  using a non-English input method.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
