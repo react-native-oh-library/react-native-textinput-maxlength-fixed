@@ -1,4 +1,4 @@
-# react-native-textinput-maxlength-fixed
+# @react-native-ohos/react-native-textinput-maxlength-fixed
 
 本项目基于 [react-native-textinput-maxlength-fixed](https://github.com/2017398956/react-native-textinput-maxlength-fixed)
 

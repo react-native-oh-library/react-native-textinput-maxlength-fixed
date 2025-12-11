@@ -21,25 +21,16 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { RNPackage, TurboModulesFactory } from '@rnoh/react-native-openharmony/ts';
-import type { TurboModule, TurboModuleContext } from '@rnoh/react-native-openharmony/ts';
-import { RNTextinputMaxlengthFixedTurboModule } from './RNTextinputMaxlengthFixedTurboModule';
+#ifndef TEXTINPUTMAXLENGTHFIXEDPACKAGE_H
+#define TEXTINPUTMAXLENGTHFIXEDPACKAGE_H
 
-class TextinputMaxlengthFixedModuleFactory extends TurboModulesFactory {
-  createTurboModule(name: string): TurboModule | null {
-    if (name === "TextInputMaxlengthFixedTurboModule") {
-      return new RNTextinputMaxlengthFixedTurboModule(this.ctx);
-    }
-    return null;
-  }
+#include "generated/RNOH/generated/BaseReactNativeTextinputMaxlengthFixedPackage.h"
+#pragma once
 
-  hasTurboModule(name: string): boolean {
-    return name === "TextInputMaxlengthFixedTurboModule";
-  }
-}
-
-export class RNTextinputMaxlengthFixedPackage extends RNPackage {
-  createTurboModulesFactory(ctx: TurboModuleContext): TurboModulesFactory {
-    return new TextinputMaxlengthFixedModuleFactory(ctx);
-  }
-}
+namespace rnoh {
+class TextinputMaxlengthFixedPackage : public BaseReactNativeTextinputMaxlengthFixedPackage {
+    using Super = BaseReactNativeTextinputMaxlengthFixedPackage;
+    using Super::Super;
+};
+} // namespace rnoh
+#endif // TEXTINPUTMAXLENGTHFIXEDPACKAGE_H
