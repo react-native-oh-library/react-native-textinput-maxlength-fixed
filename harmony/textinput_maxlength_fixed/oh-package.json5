@@ -1,6 +1,6 @@
 {
   "name": "@react-native-ohos/react-native-textinput-maxlength-fixed",
-  "version": "0.2.0-rc.1",
+  "version": "0.2.0",
   "description": "React Native wrapper for HarmonyOS textinput",
   "main": "index.ets",
   "author": "",
