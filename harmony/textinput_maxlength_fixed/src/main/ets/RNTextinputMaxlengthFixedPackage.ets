@@ -21,8 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-import { RNPackage, TurboModulesFactory } from '@rnoh/react-native-openharmony/ts';
-import type { TurboModule, TurboModuleContext } from '@rnoh/react-native-openharmony/ts';
+import { RNOHPackage, TurboModulesFactory } from '@rnoh/react-native-openharmony';
+import type { TurboModule, TurboModuleContext } from '@rnoh/react-native-openharmony';
 import { RNTextinputMaxlengthFixedTurboModule } from './RNTextinputMaxlengthFixedTurboModule';
 
 class TextinputMaxlengthFixedModuleFactory extends TurboModulesFactory {
@@ -38,7 +38,7 @@ class TextinputMaxlengthFixedModuleFactory extends TurboModulesFactory {
   }
 }
 
-export class RNTextinputMaxlengthFixedPackage extends RNPackage {
+export class RNTextinputMaxlengthFixedPackage extends RNOHPackage {
   createTurboModulesFactory(ctx: TurboModuleContext): TurboModulesFactory {
     return new TextinputMaxlengthFixedModuleFactory(ctx);
   }
