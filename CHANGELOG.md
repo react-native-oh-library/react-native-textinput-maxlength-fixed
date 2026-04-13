@@ -1,3 +1,11 @@
+# v0.2.0
+
+release version v0.2.0
+
+# v0.2.0-rc.1
+
+pre-release version v0.2.0-rc.1
+
 # v0.1.3-rc.1
 
 ## 更新内容
