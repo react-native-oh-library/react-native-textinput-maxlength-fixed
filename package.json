@@ -48,7 +48,13 @@
     "harmony"
   ],
   "harmony": {
-    "alias": "react-native-textinput-maxlength-fixed"
+    "alias": "react-native-textinput-maxlength-fixed",
+    "autolinking": {
+      "etsPackageClassName": "TextinputMaxlengthFixedPackage",
+      "cppPackageClassName": "TextinputMaxlengthFixedPackage",
+      "cmakeLibraryTargetName": "rnoh_textinput_maxlength_fixed",
+      "ohPackageName": "@react-native-ohos/react-native-textinput-maxlength-fixed"
+    }
   },
   "repository": {
     "type": "git",
